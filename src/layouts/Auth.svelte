@@ -21,10 +21,10 @@
       <div
         class="absolute top-0 w-full h-full bg-blueGray-800 bg-no-repeat bg-full"
         style="background-image: url({registerBg2});"
-      ></div>
+      />
       <Router url="auth">
-        <Route path="login" component="{Login}" />
-        <Route path="register" component="{Register}" />
+        <Route path="login" component={Login} />
+        <Route path="register" component={Register} />
       </Router>
       <FooterSmall absolute="true" />
     </section>
