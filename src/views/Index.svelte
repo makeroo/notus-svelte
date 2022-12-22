@@ -16,7 +16,7 @@
   const login = "/assets/img/login.jpg";
   const profile = "/assets/img/profile.jpg";
   const landing = "/assets/img/landing.jpg";
-  export let location;
+  //export let location;
 </script>
 
 <IndexNavbar />

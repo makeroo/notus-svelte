@@ -14,7 +14,7 @@
   import Maps from "views/admin/Maps.svelte";
 
   export let location;
-  export let admin = "";
+  //export let admin = "";
 </script>
 
 <div>
