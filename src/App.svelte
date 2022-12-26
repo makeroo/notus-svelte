@@ -1,5 +1,5 @@
 <!-- App.svelte -->
-<script>
+<script lang="ts">
   import { Router, Route } from "svelte-routing";
 
   // Admin Layout
