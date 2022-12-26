@@ -2,7 +2,7 @@ import svelte from "rollup-plugin-svelte";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 // library that helps you import in svelte with
 // absolute paths, instead of
 // import Component  from "../../../../components/Component.svelte";
@@ -10,6 +10,8 @@ import { terser } from "rollup-plugin-terser";
 // import Component from "components/Component.svelte";
 import alias from "@rollup/plugin-alias";
 import fs from "fs";
+import sveltePreprocess from 'svelte-preprocess';
+import typescript from '@rollup/plugin-typescript';
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -129,14 +131,16 @@ function serve() {
   return {
     writeBundle() {
       if (server) return;
-      server = require("child_process").spawn(
-        "npm",
-        ["run", "start", "--", "--dev"],
-        {
-          stdio: ["ignore", "inherit", "inherit"],
-          shell: true,
-        }
-      );
+      import('child_process').then((m) => {
+        server = m.spawn(
+         "npm",
+         ["run", "start", "--", "--dev"],
+         {
+           stdio: ["ignore", "inherit", "inherit"],
+           shell: true,
+         }
+        )
+      })
 
       process.on("SIGTERM", toExit);
       process.on("exit", toExit);
@@ -145,7 +149,7 @@ function serve() {
 }
 
 export default {
-  input: "src/main.js",
+  input: "src/main.ts",
   output: {
     sourcemap: true,
     format: "iife",
@@ -154,13 +158,16 @@ export default {
   },
   plugins: [
     svelte({
-      // enable run-time checks when not in production
-      dev: !production,
-      // we'll extract any component CSS out into
-      // a separate file - better for performance
-      css: (css) => {
-        css.write("bundle.css");
+      compilerOptions: {
+        // enable run-time checks when not in production
+        dev: !production,
+        // we'll extract any component CSS out into
+        // a separate file - better for performance
+        //css: (css) => {
+        //  css.write("bundle.css");
+        //},
       },
+			preprocess: sveltePreprocess({ sourceMap: !production }),
     }),
 
     // If you have external dependencies installed from
@@ -173,6 +180,7 @@ export default {
       dedupe: ["svelte"],
     }),
     commonjs(),
+		typescript({ sourceMap: !production }),
 
     // In dev mode, call `npm run start` once
     // the bundle has been generated
