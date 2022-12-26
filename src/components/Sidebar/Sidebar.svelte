@@ -231,6 +231,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/colors/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fas fa-paint-brush mr-2 text-blueGray-300 text-base"></i>
@@ -242,6 +243,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fab fa-css3-alt mr-2 text-blueGray-300 text-base"></i>
@@ -253,6 +255,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fab fa-angular mr-2 text-blueGray-300 text-base"></i>
@@ -264,6 +267,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/js/overview/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fab fa-js-square mr-2 text-blueGray-300 text-base"></i>
@@ -275,6 +279,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fab fa-react mr-2 text-blueGray-300 text-base"></i>
@@ -286,6 +291,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/react/overview/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fab fa-react mr-2 text-blueGray-300 text-base"></i>
@@ -297,6 +303,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fas fa-link mr-2 text-blueGray-300 text-base"></i>
@@ -308,6 +315,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/vue/overview/notus"
             target="_blank"
+            rel="noreferrer"
             class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"
           >
             <i class="fab fa-vuejs mr-2 text-blueGray-300 text-base"></i>

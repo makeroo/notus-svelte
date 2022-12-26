@@ -34,6 +34,7 @@
             href="https://tailwindcss.com/?ref=creativetim"
             class="text-blueGray-600"
             target="_blank"
+            rel="noreferrer"
           >
             Tailwind CSS.
           </a>
@@ -44,6 +45,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus?ref=ns-index"
             target="_blank"
+            rel="noreferrer"
             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-red-400 active:bg-red-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
@@ -52,6 +54,7 @@
             href="https://github.com/creativetimofficial/notus-svelte?ref=ns-index"
             class="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
             target="_blank"
+            rel="noreferrer"
           >
             Github Star
           </a>
@@ -256,6 +259,7 @@
         <a
           href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=ns-index"
           target="_blank"
+          rel="noreferrer"
           class="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
         >
           View All
@@ -306,7 +310,8 @@
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=ns-index"
               target="_blank"
-            >
+              rel="noreferrer"
+              >
               <div class="bg-red-600 shadow-lg rounded-lg text-center p-8">
                 <img
                   alt="..."
@@ -319,7 +324,8 @@
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=ns-index"
               target="_blank"
-            >
+              rel="noreferrer"
+              >
               <div
                 class="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8"
               >
@@ -334,7 +340,8 @@
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=ns-index"
               target="_blank"
-            >
+              rel="noreferrer"
+              >
               <div
                 class="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8"
               >
@@ -351,7 +358,8 @@
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=ns-index"
               target="_blank"
-            >
+              rel="noreferrer"
+              >
               <div class="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                 <img
                   alt="..."
@@ -364,7 +372,8 @@
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=ns-index"
               target="_blank"
-            >
+              rel="noreferrer"
+              >
               <div class="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
@@ -377,7 +386,8 @@
             <a
               href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=ns-index"
               target="_blank"
-            >
+              rel="noreferrer"
+              >
               <div
                 class="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8"
               >
@@ -459,6 +469,7 @@
         <a
           href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=ns-index"
           target="_blank"
+          rel="noreferrer"
           class="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
         >
           View all
@@ -637,6 +648,7 @@
             href="https://tailwindcss.com/?ref=creativetim"
             class="text-blueGray-300"
             target="_blank"
+            rel="noreferrer"
           >
             Tailwind CSS
           </a>
@@ -652,6 +664,7 @@
         <a
           href="https://github.com/creativetimofficial/notus-svelte?ref=ns-index"
           target="_blank"
+          rel="noreferrer"
           class="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
         >
           Github Star
@@ -706,6 +719,7 @@
           <a
             href="https://www.creative-tim.com/learning-lab/tailwind/svelte/overview/notus?ref=ns-index"
             target="_blank"
+            rel="noreferrer"
             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-red-400 active:bg-red-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             Get started
@@ -713,6 +727,7 @@
           <a
             href="https://github.com/creativetimofficial/notus-svelte?ref=ns-index"
             target="_blank"
+            rel="noreferrer"
             class="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
           >
             <i class="fab fa-github text-lg mr-1" />
