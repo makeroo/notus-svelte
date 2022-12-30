@@ -1,17 +1,17 @@
 <script>
-  import { Router, Route } from "svelte-routing";
+  import { Router, Route } from 'svelte-routing';
 
   // components for this layout
-  import AdminNavbar from "components/Navbars/AdminNavbar.svelte";
-  import Sidebar from "components/Sidebar/Sidebar.svelte";
-  import HeaderStats from "components/Headers/HeaderStats.svelte";
-  import FooterAdmin from "components/Footers/FooterAdmin.svelte";
+  import AdminNavbar from 'components/Navbars/AdminNavbar.svelte';
+  import Sidebar from 'components/Sidebar/Sidebar.svelte';
+  import HeaderStats from 'components/Headers/HeaderStats.svelte';
+  import FooterAdmin from 'components/Footers/FooterAdmin.svelte';
 
   // pages for this layout
-  import Dashboard from "views/admin/Dashboard.svelte";
-  import Settings from "views/admin/Settings.svelte";
-  import Tables from "views/admin/Tables.svelte";
-  import Maps from "views/admin/Maps.svelte";
+  import Dashboard from 'views/admin/Dashboard.svelte';
+  import Settings from 'views/admin/Settings.svelte';
+  import Tables from 'views/admin/Tables.svelte';
+  import Maps from 'views/admin/Maps.svelte';
 
   export let location;
   //export let admin = "";

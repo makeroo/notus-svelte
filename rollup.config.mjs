@@ -1,15 +1,15 @@
-import svelte from "rollup-plugin-svelte";
-import resolve from "@rollup/plugin-node-resolve";
-import commonjs from "@rollup/plugin-commonjs";
-import livereload from "rollup-plugin-livereload";
-import terser from "@rollup/plugin-terser";
+import svelte from 'rollup-plugin-svelte';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import livereload from 'rollup-plugin-livereload';
+import terser from '@rollup/plugin-terser';
 // library that helps you import in svelte with
 // absolute paths, instead of
 // import Component  from "../../../../components/Component.svelte";
 // we will be able to say
 // import Component from "components/Component.svelte";
-import alias from "@rollup/plugin-alias";
-import fs from "fs";
+import alias from '@rollup/plugin-alias';
+import fs from 'fs';
 import sveltePreprocess from 'svelte-preprocess';
 import typescript from '@rollup/plugin-typescript';
 
@@ -17,12 +17,12 @@ const production = !process.env.ROLLUP_WATCH;
 
 // configure aliases for absolute imports
 const aliases = alias({
-  resolve: [".svelte", ".js"], //optional, by default this will just look for .js files or folders
+  resolve: ['.svelte', '.js'], //optional, by default this will just look for .js files or folders
   entries: [
-    { find: "components", replacement: "src/components" },
-    { find: "views", replacement: "src/views" },
-    { find: "assets", replacement: "src/assets" },
-  ],
+    { find: 'components', replacement: 'src/components' },
+    { find: 'views', replacement: 'src/views' },
+    { find: 'assets', replacement: 'src/assets' }
+  ]
 });
 
 const indexTemplate = `<!--
@@ -53,10 +53,7 @@ const indexTemplate = `<!--
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png" />
     <link rel="stylesheet" href="/build/bundle.css" />
-    <link
-      rel="stylesheet"
-      href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-    />
+    <link rel="stylesheet" href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" />
     <link rel="stylesheet" href="/assets/styles/tailwind.css" />
     <title>Notus Svelte</title>
 
@@ -72,8 +69,8 @@ const indexTemplate = `<!--
   <body class="text-blueGray-700 antialiased">
     <noscript>
       <strong
-        >We're sorry but notus-svelte doesn't work properly without
-        JavaScript enabled. Please enable it to continue.</strong
+        >We're sorry but notus-svelte doesn't work properly without JavaScript enabled. Please
+        enable it to continue.</strong
       >
     </noscript>
     <div id="app"></div>
@@ -83,41 +80,35 @@ const indexTemplate = `<!--
 
 if (production) {
   fs.writeFileSync(
-    "./public/index.html",
+    './public/index.html',
     indexTemplate
-      .replace("<<process-env-status>>", "PRODUCTION: true")
-      .replace(/<<live-preview-link>>/g, "/notus-svelte")
+      .replace('<<process-env-status>>', 'PRODUCTION: true')
+      .replace(/<<live-preview-link>>/g, '/notus-svelte')
   );
   fs.writeFileSync(
-    "./public/200.html",
+    './public/200.html',
     indexTemplate
-      .replace("<<process-env-status>>", "PRODUCTION: true")
-      .replace(/<<live-preview-link>>/g, "/notus-svelte")
+      .replace('<<process-env-status>>', 'PRODUCTION: true')
+      .replace(/<<live-preview-link>>/g, '/notus-svelte')
   );
   fs.writeFileSync(
-    "./public/404.html",
+    './public/404.html',
     indexTemplate
-      .replace("<<process-env-status>>", "PRODUCTION: true")
-      .replace(/<<live-preview-link>>/g, "/notus-svelte")
+      .replace('<<process-env-status>>', 'PRODUCTION: true')
+      .replace(/<<live-preview-link>>/g, '/notus-svelte')
   );
 } else {
   fs.writeFileSync(
-    "./public/index.html",
-    indexTemplate
-      .replace("<<process-env-status>>", "")
-      .replace(/<<live-preview-link>>/g, "")
+    './public/index.html',
+    indexTemplate.replace('<<process-env-status>>', '').replace(/<<live-preview-link>>/g, '')
   );
   fs.writeFileSync(
-    "./public/200.html",
-    indexTemplate
-      .replace("<<process-env-status>>", "")
-      .replace(/<<live-preview-link>>/g, "")
+    './public/200.html',
+    indexTemplate.replace('<<process-env-status>>', '').replace(/<<live-preview-link>>/g, '')
   );
   fs.writeFileSync(
-    "./public/404.html",
-    indexTemplate
-      .replace("<<process-env-status>>", "")
-      .replace(/<<live-preview-link>>/g, "")
+    './public/404.html',
+    indexTemplate.replace('<<process-env-status>>', '').replace(/<<live-preview-link>>/g, '')
   );
 }
 
@@ -132,42 +123,38 @@ function serve() {
     writeBundle() {
       if (server) return;
       import('child_process').then((m) => {
-        server = m.spawn(
-         "npm",
-         ["run", "start", "--", "--dev"],
-         {
-           stdio: ["ignore", "inherit", "inherit"],
-           shell: true,
-         }
-        )
-      })
+        server = m.spawn('npm', ['run', 'start', '--', '--dev'], {
+          stdio: ['ignore', 'inherit', 'inherit'],
+          shell: true
+        });
+      });
 
-      process.on("SIGTERM", toExit);
-      process.on("exit", toExit);
-    },
+      process.on('SIGTERM', toExit);
+      process.on('exit', toExit);
+    }
   };
 }
 
 export default {
-  input: "src/main.ts",
+  input: 'src/main.ts',
   output: {
     sourcemap: true,
-    format: "iife",
-    name: "app",
-    file: "public/build/bundle.js",
+    format: 'iife',
+    name: 'app',
+    file: 'public/build/bundle.js'
   },
   plugins: [
     svelte({
       compilerOptions: {
         // enable run-time checks when not in production
-        dev: !production,
+        dev: !production
         // we'll extract any component CSS out into
         // a separate file - better for performance
         //css: (css) => {
         //  css.write("bundle.css");
         //},
       },
-			preprocess: sveltePreprocess({ sourceMap: !production }),
+      preprocess: sveltePreprocess({ sourceMap: !production })
     }),
 
     // If you have external dependencies installed from
@@ -177,10 +164,10 @@ export default {
     // https://github.com/rollup/plugins/tree/master/packages/commonjs
     resolve({
       browser: true,
-      dedupe: ["svelte"],
+      dedupe: ['svelte']
     }),
     commonjs(),
-		typescript({ sourceMap: !production }),
+    typescript({ sourceMap: !production }),
 
     // In dev mode, call `npm run start` once
     // the bundle has been generated
@@ -188,7 +175,7 @@ export default {
 
     // Watch the `public` directory and refresh the
     // browser on changes when not in production
-    !production && livereload("public"),
+    !production && livereload('public'),
 
     // If we're building for production (npm run build
     // instead of npm run dev), minify
@@ -199,9 +186,9 @@ export default {
     // import Component  from "../../../../components/Component.svelte";
     // we will be able to say
     // import Component from "components/Component.svelte";
-    aliases,
+    aliases
   ],
   watch: {
-    clearScreen: false,
-  },
+    clearScreen: false
+  }
 };

@@ -1,6 +1,6 @@
 <script>
   // library for creating dropdown menu appear on click
-  import { createPopper } from "@popperjs/core";
+  import { createPopper } from '@popperjs/core';
 
   // core components
 
@@ -16,7 +16,7 @@
     } else {
       dropdownPopoverShow = true;
       createPopper(btnDropdownRef, popoverDropdownRef, {
-        placement: "bottom-start",
+        placement: 'bottom-start'
       });
     }
   };
@@ -26,29 +26,34 @@
   <a
     class="text-blueGray-500 py-1 px-3"
     href="#pablo"
-    bind:this="{btnDropdownRef}"
-    on:click="{toggleDropdown}"
+    bind:this={btnDropdownRef}
+    on:click={toggleDropdown}
   >
-    <i class="fas fa-ellipsis-v"></i>
+    <i class="fas fa-ellipsis-v" />
   </a>
   <div
-    bind:this="{popoverDropdownRef}"
-    class="bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48 {dropdownPopoverShow ? 'block':'hidden'}"
+    bind:this={popoverDropdownRef}
+    class="bg-white text-base z-50 float-left py-2 list-none text-left rounded shadow-lg min-w-48 {dropdownPopoverShow
+      ? 'block'
+      : 'hidden'}"
   >
     <a
-      href="#pablo" on:click={(e) => e.preventDefault()}
+      href="#pablo"
+      on:click={(e) => e.preventDefault()}
       class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
     >
       Action
     </a>
     <a
-      href="#pablo" on:click={(e) => e.preventDefault()}
+      href="#pablo"
+      on:click={(e) => e.preventDefault()}
       class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
     >
       Another action
     </a>
     <a
-      href="#pablo" on:click={(e) => e.preventDefault()}
+      href="#pablo"
+      on:click={(e) => e.preventDefault()}
       class="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
     >
       Something else here

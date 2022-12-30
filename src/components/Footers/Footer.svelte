@@ -17,10 +17,7 @@
       x="0"
       y="0"
     >
-      <polygon
-        class="text-blueGray-200 fill-current"
-        points="2560 0 2560 100 0 100"
-      ></polygon>
+      <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100" />
     </svg>
   </div>
   <div class="container mx-auto px-4">
@@ -35,34 +32,32 @@
             class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-twitter"></i>
+            <i class="fab fa-twitter" />
           </button>
           <button
             class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-facebook-square" />
           </button>
           <button
             class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-dribbble"></i>
+            <i class="fab fa-dribbble" />
           </button>
           <button
             class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
             type="button"
           >
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github" />
           </button>
         </div>
       </div>
       <div class="w-full lg:w-6/12 px-4">
         <div class="flex flex-wrap items-top mb-6">
           <div class="w-full lg:w-4/12 px-4 ml-auto">
-            <span
-              class="block uppercase text-blueGray-500 text-sm font-semibold mb-2"
-            >
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
               Useful Links
             </span>
             <ul class="list-unstyled">
@@ -101,9 +96,7 @@
             </ul>
           </div>
           <div class="w-full lg:w-4/12 px-4">
-            <span
-              class="block uppercase text-blueGray-500 text-sm font-semibold mb-2"
-            >
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
               Other Resources
             </span>
             <ul class="list-unstyled">

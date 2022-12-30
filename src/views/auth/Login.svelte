@@ -1,9 +1,9 @@
 <script>
-  import { link } from "svelte-routing";
+  import { link } from 'svelte-routing';
 
   // core components
-  const github = "../assets/img/github.svg";
-  const google = "../assets/img/google.svg";
+  const github = '../assets/img/github.svg';
+  const google = '../assets/img/google.svg';
   //export let location;
 </script>
 
@@ -15,23 +15,21 @@
       >
         <div class="rounded-t mb-0 px-6 py-6">
           <div class="text-center mb-3">
-            <h6 class="text-blueGray-500 text-sm font-bold">
-              Sign in with
-            </h6>
+            <h6 class="text-blueGray-500 text-sm font-bold">Sign in with</h6>
           </div>
           <div class="btn-wrapper text-center">
             <button
               class="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
               type="button"
             >
-              <img alt="..." class="w-5 mr-1" src="{github}" />
+              <img alt="..." class="w-5 mr-1" src={github} />
               Github
             </button>
             <button
               class="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
               type="button"
             >
-              <img alt="..." class="w-5 mr-1" src="{google}" />
+              <img alt="..." class="w-5 mr-1" src={google} />
               Google
             </button>
           </div>
@@ -78,9 +76,7 @@
                   type="checkbox"
                   class="form-checkbox border-0 rounded text-blueGray-700 ml-1 w-5 h-5 ease-linear transition-all duration-150"
                 />
-                <span class="ml-2 text-sm font-semibold text-blueGray-600">
-                  Remember me
-                </span>
+                <span class="ml-2 text-sm font-semibold text-blueGray-600"> Remember me </span>
               </label>
             </div>
 

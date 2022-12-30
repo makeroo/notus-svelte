@@ -1,21 +1,21 @@
 <script>
-  import { Link } from "svelte-routing";
+  import { Link } from 'svelte-routing';
 
   // core components
-  import IndexNavbar from "components/Navbars/IndexNavbar.svelte";
-  import Footer from "components/Footers/Footer.svelte";
+  import IndexNavbar from 'components/Navbars/IndexNavbar.svelte';
+  import Footer from 'components/Footers/Footer.svelte';
 
-  const patternVue = "/assets/img/pattern_svelte.png";
-  const componentBtn = "/assets/img/component-btn.png";
-  const componentProfileCard = "/assets/img/component-profile-card.png";
-  const componentInfoCard = "/assets/img/component-info-card.png";
-  const componentInfo2 = "/assets/img/component-info-2.png";
-  const componentMenu = "/assets/img/component-menu.png";
-  const componentBtnPink = "/assets/img/component-btn-pink.png";
-  const documentation = "/assets/img/documentation.png";
-  const login = "/assets/img/login.jpg";
-  const profile = "/assets/img/profile.jpg";
-  const landing = "/assets/img/landing.jpg";
+  const patternVue = '/assets/img/pattern_svelte.png';
+  const componentBtn = '/assets/img/component-btn.png';
+  const componentProfileCard = '/assets/img/component-profile-card.png';
+  const componentInfoCard = '/assets/img/component-info-card.png';
+  const componentInfo2 = '/assets/img/component-info-2.png';
+  const componentMenu = '/assets/img/component-menu.png';
+  const componentBtnPink = '/assets/img/component-btn-pink.png';
+  const documentation = '/assets/img/documentation.png';
+  const login = '/assets/img/login.jpg';
+  const profile = '/assets/img/profile.jpg';
+  const landing = '/assets/img/landing.jpg';
   //export let location;
 </script>
 
@@ -28,8 +28,7 @@
           Notus Svelte - A beautiful extension for Tailwind CSS.
         </h2>
         <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-          Notus Svelte is Free and Open Source. It does not change any of the
-          CSS from
+          Notus Svelte is Free and Open Source. It does not change any of the CSS from
           <a
             href="https://tailwindcss.com/?ref=creativetim"
             class="text-blueGray-600"
@@ -38,8 +37,8 @@
           >
             Tailwind CSS.
           </a>
-          It features multiple HTML elements and it comes with dynamic components
-          for ReactJS, Vue and Angular.
+          It features multiple HTML elements and it comes with dynamic components for ReactJS, Vue and
+          Angular.
         </p>
         <div class="mt-12">
           <a
@@ -84,17 +83,12 @@
       x="0"
       y="0"
     >
-      <polygon
-        class="text-blueGray-100 fill-current"
-        points="2560 0 2560 100 0 100"
-      />
+      <polygon class="text-blueGray-100 fill-current" points="2560 0 2560 100 0 100" />
     </svg>
   </div>
   <div class="container mx-auto">
     <div class="flex flex-wrap items-center">
-      <div
-        class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
-      >
+      <div class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
         <div
           class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-400"
         >
@@ -110,18 +104,13 @@
               viewBox="0 0 583 95"
               class="absolute left-0 w-full block h-95-px -top-94-px"
             >
-              <polygon
-                points="-30,95 583,95 583,65"
-                class="text-red-400 fill-current"
-              />
+              <polygon points="-30,95 583,95 583,65" class="text-red-400 fill-current" />
             </svg>
-            <h4 class="text-xl font-bold text-white">
-              Great for your awesome project
-            </h4>
+            <h4 class="text-xl font-bold text-white">Great for your awesome project</h4>
             <p class="text-md font-light mt-2 text-white">
-              Putting together a page has never been easier than matching
-              together pre-made components. From landing pages presentation to
-              login areas, you can easily customise and built your pages.
+              Putting together a page has never been easier than matching together pre-made
+              components. From landing pages presentation to login areas, you can easily customise
+              and built your pages.
             </p>
           </blockquote>
         </div>
@@ -139,8 +128,7 @@
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">CSS Components</h6>
                 <p class="mb-4 text-blueGray-500">
-                  Notus Svelte comes with a huge number of Fully Coded CSS
-                  components.
+                  Notus Svelte comes with a huge number of Fully Coded CSS components.
                 </p>
               </div>
             </div>
@@ -151,12 +139,9 @@
                 >
                   <i class="fas fa-drafting-compass" />
                 </div>
-                <h6 class="text-xl mb-1 font-semibold">
-                  JavaScript Components
-                </h6>
+                <h6 class="text-xl mb-1 font-semibold">JavaScript Components</h6>
                 <p class="mb-4 text-blueGray-500">
-                  We also feature many dynamic components for React, NextJS, Vue
-                  and Angular.
+                  We also feature many dynamic components for React, NextJS, Vue and Angular.
                 </p>
               </div>
             </div>
@@ -171,8 +156,8 @@
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">Pages</h6>
                 <p class="mb-4 text-blueGray-500">
-                  This extension also comes with 3 sample pages. They are fully
-                  coded so you can start working instantly.
+                  This extension also comes with 3 sample pages. They are fully coded so you can
+                  start working instantly.
                 </p>
               </div>
             </div>
@@ -185,8 +170,8 @@
                 </div>
                 <h6 class="text-xl mb-1 font-semibold">Documentation</h6>
                 <p class="mb-4 text-blueGray-500">
-                  Built by developers for developers. You will love how easy is
-                  to to work with Notus Svelte.
+                  Built by developers for developers. You will love how easy is to to work with
+                  Notus Svelte.
                 </p>
               </div>
             </div>
@@ -204,15 +189,10 @@
         >
           <i class="fas fa-sitemap text-xl" />
         </div>
-        <h3 class="text-3xl mb-2 font-semibold leading-normal">
-          CSS Components
-        </h3>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
-        >
-          Every element that you need in a product comes built in as a
-          component. All components fit perfectly with each other and can have
-          different colours.
+        <h3 class="text-3xl mb-2 font-semibold leading-normal">CSS Components</h3>
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+          Every element that you need in a product comes built in as a component. All components fit
+          perfectly with each other and can have different colours.
         </p>
         <div class="block pb-6">
           <span
@@ -311,7 +291,7 @@
               href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=ns-index"
               target="_blank"
               rel="noreferrer"
-              >
+            >
               <div class="bg-red-600 shadow-lg rounded-lg text-center p-8">
                 <img
                   alt="..."
@@ -325,10 +305,8 @@
               href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=ns-index"
               target="_blank"
               rel="noreferrer"
-              >
-              <div
-                class="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8"
-              >
+            >
+              <div class="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
                   class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -341,10 +319,8 @@
               href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=ns-index"
               target="_blank"
               rel="noreferrer"
-              >
-              <div
-                class="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8"
-              >
+            >
+              <div class="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
                   class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -359,7 +335,7 @@
               href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=ns-index"
               target="_blank"
               rel="noreferrer"
-              >
+            >
               <div class="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
                 <img
                   alt="..."
@@ -373,7 +349,7 @@
               href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=ns-index"
               target="_blank"
               rel="noreferrer"
-              >
+            >
               <div class="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
@@ -387,10 +363,8 @@
               href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=ns-index"
               target="_blank"
               rel="noreferrer"
-              >
-              <div
-                class="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8"
-              >
+            >
+              <div class="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
                 <img
                   alt="..."
                   class="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -409,19 +383,12 @@
         >
           <i class="fas fa-drafting-compass text-xl" />
         </div>
-        <h3 class="text-3xl mb-2 font-semibold leading-normal">
-          Javascript Components
-        </h3>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
-        >
-          In order to create a great User Experience some components require
-          JavaScript. In this way you can manipulate the elements on the page
-          and give more options to your users.
+        <h3 class="text-3xl mb-2 font-semibold leading-normal">Javascript Components</h3>
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+          In order to create a great User Experience some components require JavaScript. In this way
+          you can manipulate the elements on the page and give more options to your users.
         </p>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600"
-        >
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
           We created a set of Components that are dynamic and come to help you.
         </p>
         <div class="block pb-6">
@@ -490,9 +457,9 @@
           </div>
           <h3 class="text-3xl font-semibold">Complex Documentation</h3>
           <p class="mt-4 text-lg leading-relaxed text-blueGray-500">
-            This extension comes a lot of fully coded examples that help you get
-            started faster. You can adjust the colors and also the programming
-            language. You can change the text and images and you're good to go.
+            This extension comes a lot of fully coded examples that help you get started faster. You
+            can adjust the colors and also the programming language. You can change the text and
+            images and you're good to go.
           </p>
           <ul class="list-none mt-6">
             <li class="py-2">
@@ -505,9 +472,7 @@
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-blueGray-500">
-                    Built by Developers for Developers
-                  </h4>
+                  <h4 class="text-blueGray-500">Built by Developers for Developers</h4>
                 </div>
               </div>
             </li>
@@ -521,9 +486,7 @@
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-blueGray-500">
-                    Carefully crafted code for Components
-                  </h4>
+                  <h4 class="text-blueGray-500">Carefully crafted code for Components</h4>
                 </div>
               </div>
             </li>
@@ -537,9 +500,7 @@
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-blueGray-500">
-                    Dynamic Javascript Components
-                  </h4>
+                  <h4 class="text-blueGray-500">Dynamic Javascript Components</h4>
                 </div>
               </div>
             </li>
@@ -565,9 +526,8 @@
     <div class="w-full md:w-6/12 px-12 md:px-4">
       <h2 class="font-semibold text-4xl">Beautiful Example Pages</h2>
       <p class="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-        Notus Svelte is a completly new product built using our past experience
-        in web templates. Take the examples we made for you and start playing
-        with them.
+        Notus Svelte is a completly new product built using our past experience in web templates.
+        Take the examples we made for you and start playing with them.
       </p>
     </div>
   </div>
@@ -637,12 +597,8 @@
         >
           <i class="fas fa-code-branch text-xl" />
         </div>
-        <h3 class="text-3xl mb-2 font-semibold leading-normal text-white">
-          Open Source
-        </h3>
-        <p
-          class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400"
-        >
+        <h3 class="text-3xl mb-2 font-semibold leading-normal text-white">Open Source</h3>
+        <p class="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
           Since
           <a
             href="https://tailwindcss.com/?ref=creativetim"
@@ -652,13 +608,10 @@
           >
             Tailwind CSS
           </a>
-          is an open source project we wanted to continue this movement too. You
-          can give this version a try to feel the design and also test the quality
-          of the code!
+          is an open source project we wanted to continue this movement too. You can give this version
+          a try to feel the design and also test the quality of the code!
         </p>
-        <p
-          class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400"
-        >
+        <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
           Get it free on Github and please help us spread the news with a Star!
         </p>
         <a
@@ -694,10 +647,7 @@
       x="0"
       y="0"
     >
-      <polygon
-        class="text-blueGray-200 fill-current"
-        points="2560 0 2560 100 0 100"
-      />
+      <polygon class="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100" />
     </svg>
   </div>
 
@@ -711,9 +661,8 @@
         </p>
         <h3 class="font-semibold text-3xl">Do you love this Starter Kit?</h3>
         <p class="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-          Cause if you do, it can be yours now. Hit the buttons below to
-          navigate to get the Free version for your next project. Build a new
-          web app or give an old project a new look!
+          Cause if you do, it can be yours now. Hit the buttons below to navigate to get the Free
+          version for your next project. Build a new web app or give an old project a new look!
         </p>
         <div class="sm:block flex flex-col mt-10">
           <a

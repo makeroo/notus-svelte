@@ -1,6 +1,6 @@
 <script>
   // core components
-  import UserDropdown from "components/Dropdowns/UserDropdown.svelte";
+  import UserDropdown from 'components/Dropdowns/UserDropdown.svelte';
 </script>
 
 <!-- Navbar -->
@@ -13,19 +13,18 @@
     <!-- Brand -->
     <a
       class="text-white text-sm uppercase hidden lg:inline-block font-semibold"
-      href="#pablo" on:click={(e) => e.preventDefault()}
+      href="#pablo"
+      on:click={(e) => e.preventDefault()}
     >
       Dashboard
     </a>
     <!-- Form -->
-    <form
-      class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3"
-    >
+    <form class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3">
       <div class="relative flex w-full flex-wrap items-stretch">
         <span
           class="z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3"
         >
-          <i class="fas fa-search"></i>
+          <i class="fas fa-search" />
         </span>
         <input
           type="text"

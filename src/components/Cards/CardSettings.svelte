@@ -14,9 +14,7 @@
   </div>
   <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
     <form>
-      <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
-        User Information
-      </h6>
+      <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">User Information</h6>
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
           <div class="relative w-full mb-3">
@@ -86,9 +84,7 @@
 
       <hr class="mt-6 border-b-1 border-blueGray-300" />
 
-      <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
-        Contact Information
-      </h6>
+      <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">Contact Information</h6>
       <div class="flex flex-wrap">
         <div class="w-full lg:w-12/12 px-4">
           <div class="relative w-full mb-3">
@@ -108,10 +104,7 @@
         </div>
         <div class="w-full lg:w-4/12 px-4">
           <div class="relative w-full mb-3">
-            <label
-              class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-              for="grid-city"
-            >
+            <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2" for="grid-city">
               City
             </label>
             <input
@@ -158,9 +151,7 @@
 
       <hr class="mt-6 border-b-1 border-blueGray-300" />
 
-      <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
-        About Me
-      </h6>
+      <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">About Me</h6>
       <div class="flex flex-wrap">
         <div class="w-full lg:w-12/12 px-4">
           <div class="relative w-full mb-3">
