@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.2.0] 2022-12-31
+
+- Add ESLint & Prettier
+- Enable TypeScript
+- Upgrade all dependencies to the latest versions
+
 ## [1.1.0] 2021-03-19
 
 ### Bug fixing
